@@ -1,0 +1,7 @@
+//auto format denpendency
+pip install yapf
+npm install eslint
+gofmt
+
+//REPL
+pip install ipython
