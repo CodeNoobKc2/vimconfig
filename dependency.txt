@@ -1,0 +1,3 @@
+# command line tools
+jq   --- json format tool
+macos: brew install jq
