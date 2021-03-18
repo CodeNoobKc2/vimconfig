@@ -1,3 +1,6 @@
 # command line tools
 jq   --- json format tool
 macos: brew install jq
+
+yapf --- python format tool
+pip install --user yapf
