@@ -16,6 +16,7 @@ Plug 'raphamorim/lucario'
 Plug 'honza/vim-snippets'
 Plug 'dense-analysis/ale'
 Plug 'Chiel92/vim-autoformat'
+Plug 'sheerun/vim-polyglot'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 "Plug 'puremourning/vimspector'
 call plug#end()
