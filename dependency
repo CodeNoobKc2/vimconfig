@@ -5,3 +5,12 @@ gofmt
 
 //REPL
 pip install ipython
+
+//TEXT-SEARCH
+ripgrip
+
+//FONTS
+https://github.com/ryanoasis/nerd-fonts
+https://github.com/powerline/fonts
+https://github.com/linjiX/Consolas-with-Yahei
+// notice on macos, one needs to auto load them in emulater and load them in font-book
