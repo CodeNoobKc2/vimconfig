@@ -19,6 +19,9 @@ nmap <silent> <leader>J <Plug>(coc-declaration)
 nmap <silent> [g <Plug>(coc-diagnostic-prev)
 nmap <silent> ]g <Plug>(coc-diagnostic-next)
 
+" Symbol renaming.
+nmap <leader>rn <Plug>(coc-rename)
+
 " GoTo code navigation.
 nmap <silent> gd <Plug>(coc-definition)
 nmap <silent> gy <Plug>(coc-type-definition)
