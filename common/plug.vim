@@ -11,8 +11,10 @@ Plug 'scrooloose/nerdtree'
 "Plug 'altercation/vim-colors-solarized'
 Plug 'vim-airline/vim-airline'
 Plug 'raphamorim/lucario'
+Plug 'vim-airline/vim-airline-themes'
 
 " ide
+Plug 'tpope/vim-fugitive'
 Plug 'honza/vim-snippets'
 Plug 'dense-analysis/ale'
 Plug 'Chiel92/vim-autoformat'
