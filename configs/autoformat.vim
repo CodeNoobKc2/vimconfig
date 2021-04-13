@@ -12,10 +12,12 @@ let g:formatters_python = ['python_format']
 
 "frontend
 "let g:formatdef_eslint = "'eslint --fix'"
-let g:formatters_typescriptreact = ['eslint_local']
-let g:formatters_typescript = ['eslint_local']
-let g:formatters_ts = ['eslint_local']
-let g:formatters_js = ['eslint_local']
-let g:formatters_vue = ['eslint_local']
+let g:formatdef_prettier = "'prettier --parser='.&filetype"
+let g:formatdef_prettier_tsx = "'prettier --parser=typescript'"
+let g:formatters_typescriptreact = ['prettier_tsx']
+let g:formatters_typescript = ['prettier']
+let g:formatters_ts = ['prettier']
+let g:formatters_js = ['prettier']
+let g:formatters_vue = ['prettier']
 
 au BufWrite *.py,*.tsx,*.ts,*.js,*.vue :Autoformat

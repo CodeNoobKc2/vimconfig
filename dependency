@@ -2,6 +2,7 @@
 pip install yapf
 npm install eslint
 gofmt
+npm install prettier
 
 //REPL
 pip install ipython
